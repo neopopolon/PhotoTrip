@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Photo Trip</string>
+    <string name="button_asia">ASIA</string>
+    <string name="button_africa">AFRICA</string>
+    <string name="button_text">PHOTO</string>
+    <string name="floatingActionButtonRevert" />
+    <string name="imageViewImage" />
+</resources>
