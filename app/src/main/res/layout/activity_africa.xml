@@ -4,8 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/africa0"
+    android:background="@drawable/africa3"
     tools:context=".AfricaActivity">
+
+    <ImageView
+        android:id="@+id/imageViewAfrica"
+        android:layout_width="472dp"
+        android:layout_height="411dp"
+        android:contentDescription="@string/imageViewImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -50,13 +60,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_menu_revert" />
 
-    <ImageView
-        android:id="@+id/imageViewAfrica"
-        android:layout_width="472dp"
-        android:layout_height="411dp"
-        android:contentDescription="@string/imageViewImage"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

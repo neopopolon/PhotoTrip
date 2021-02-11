@@ -3,6 +3,7 @@ package com.example.phototrip
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
@@ -12,8 +13,8 @@ class MainActivity : AppCompatActivity() {
 
 //        buttonAfrica.setOnclickListener {buttonAfricaClick() }
 //        buttonAsia.setOnclickListener {buttonAsiaClick() }
-        findViewById<Button>(R.id.buttonAfrica).setOnClickListener { buttonAfricaClick() }
-        findViewById<Button>(R.id.buttonAsia).setOnClickListener { buttonAsiaClick() }
+        findViewById<View>(R.id.buttonAfrica).setOnClickListener { buttonAfricaClick() }
+        findViewById<View>(R.id.buttonAsia).setOnClickListener { buttonAsiaClick() }
 
     }
 
